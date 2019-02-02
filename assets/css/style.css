@@ -1,0 +1,75 @@
+body {
+    background-image: url('../images/Dc Universe.jpg');
+    /* background-repeat: repeat-x; */
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+
+  }
+
+button {
+    background: #92c7eb;
+    background-image: url('../images/Joker Button.jpg');
+    background-size:  cover;
+    background-position: center;
+    display: inline-block;
+    border: none;
+    padding: 20px;
+    width: 70px;
+    border-radius: 900px;
+    height: 70px;
+    transition: all 0.5s;
+    cursor: pointer;
+    color: red;
+    font-size: 17px;
+    position: relative;
+    top: -350px;
+    left: 100px;
+   }
+   button:hover
+   {
+    width: 75px;
+    height: 75px;
+   }
+
+.timer-p{
+    margin-top: 50px;
+    color: chartreuse;
+    font-size: 25px;
+    background-color: purple
+}
+
+.answer{
+    padding-top: 10px;
+    height: 50px;
+    color: whitesmoke;
+    background-color: crimson;
+    padding-left: 15px;
+    border-radius: 4px;
+}
+
+.text-center{
+    font-size: 20px ;
+    color: greenyellow;
+    font-style: oblique;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-shadow: 3px 2px purple;
+}
+
+header {
+        background-blend-mode: lighten;
+		width: 768px;
+		text-align: center;
+		font-family: Neon80sRegular, Arial Narrow, sans-serif;
+		color: #fee;
+		width: 768px;
+		padding: 2rem;
+		text-transform: uppercase;
+		font-size: 6rem;
+		letter-spacing: 2rem;
+		text-shadow: 0 0 30px rgba(255,0,84,0.6),
+			0 0 60px rgba(255,0,84,0.4),
+			0 0 100px rgba(255,0,84,0.2),
+			0 0 90px rgba(255,0,84,0.1);
+
+}   

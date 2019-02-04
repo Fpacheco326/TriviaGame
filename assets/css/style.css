@@ -46,6 +46,22 @@ button {
     background-color: crimson;
     padding-left: 15px;
     border-radius: 4px;
+    cursor: pointer;
+}
+
+.endgameSummary{
+    color: chartreuse;
+    font-size: 25px;
+}
+
+.incorrect {
+    color: chartreuse;
+    font-size: 25px;
+}
+
+.unAnswered {
+    color: chartreuse;
+    font-size: 25px;
 }
 
 .text-center{
